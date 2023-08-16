@@ -1,0 +1,64 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+    background-color: rgb(23, 35, 143);
+    color:white;
+    width: 30%;
+    padding : 10px;
+    margin: auto;
+	font-weight: bold;
+	text-align: center;
+	font-size: 20px;
+	
+}
+
+p {
+	font-weight: normal;
+	text-align: center;
+	font-size: 15px;
+	margin: 10px;
+    margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#svgContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.displayButton {
+    background-color: rgb(60, 178, 224) ;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 50px;
+
+}
+.close {
+    background-color: rgb(199, 45, 45) ;
+    color: white;
+    border: none;
+    width: 100px;
+    height: 30px;
+}
+img{
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
