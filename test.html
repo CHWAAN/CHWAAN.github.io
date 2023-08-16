@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROBOTU ArUco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://www.hongik.ac.kr/front/images/local/header_logo.png">
+    <h1>ROBOTU 목적지 설정</h1>
+    <p>목적지 선택 후 ArUco 마커를 카메라에 보여주세요.</p>
+    <div class="container">
+        <button class="displayButton" data-target="svg1">D동 3X1호</button>
+        <button class="displayButton" data-target="svg2">정홍식 교수님</button>
+    </div>
+    
+    <div id="svgContainer" class="hidden">
+        <div id="svgContent"></div>
+        <button id="closeButton" class="close">Close</button>
+    </div>
+    
+    <textarea id="svg1" class="hidden">
+        <svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" width="100mm" height="100mm"><rect x="0" y="0" width="8" height="8" fill="black"></rect><rect width="1.5" height="1" x="5" y="1" fill="white"></rect><rect width="1" height="1.5" x="5" y="1" fill="white"></rect><rect width="1" height="1" x="6" y="1" fill="white"></rect><rect width="1" height="1.5" x="6" y="1" fill="white"></rect><rect width="1" height="1" x="1" y="2" fill="white"></rect><rect width="1" height="1.5" x="1" y="2" fill="white"></rect><rect width="1.5" height="1" x="3" y="2" fill="white"></rect><rect width="1" height="1.5" x="3" y="2" fill="white"></rect><rect width="1.5" height="1" x="4" y="2" fill="white"></rect><rect width="1" height="1.5" x="4" y="2" fill="white"></rect><rect width="1.5" height="1" x="5" y="2" fill="white"></rect><rect width="1" height="1.5" x="5" y="2" fill="white"></rect><rect width="1" height="1" x="6" y="2" fill="white"></rect><rect width="1" height="1" x="1" y="3" fill="white"></rect><rect width="1" height="1.5" x="1" y="3" fill="white"></rect><rect width="1.5" height="1" x="3" y="3" fill="white"></rect><rect width="1.5" height="1" x="4" y="3" fill="white"></rect><rect width="1" height="1" x="5" y="3" fill="white"></rect><rect width="1" height="1.5" x="5" y="3" fill="white"></rect><rect width="1" height="1" x="1" y="4" fill="white"></rect><rect width="1" height="1.5" x="1" y="4" fill="white"></rect><rect width="1.5" height="1" x="5" y="4" fill="white"></rect><rect width="1" height="1.5" x="5" y="4" fill="white"></rect><rect width="1" height="1" x="6" y="4" fill="white"></rect><rect width="1" height="1" x="1" y="5" fill="white"></rect><rect width="1" height="1" x="5" y="5" fill="white"></rect><rect width="1" height="1" x="2" y="6" fill="white"></rect><rect width="1" height="1" x="6" y="6" fill="white"></rect></svg>
+    </textarea>
+    
+    <textarea id="svg2" class="hidden">
+        <svg viewBox="0 0 8 8" xmlns="http://www.w3.org/2000/svg" shape-rendering="crispEdges" width="100mm" height="100mm"><rect x="0" y="0" width="8" height="8" fill="black"></rect><rect width="1" height="1" x="4" y="1" fill="white"></rect><rect width="1" height="1" x="6" y="1" fill="white"></rect><rect width="1" height="1.5" x="6" y="1" fill="white"></rect><rect width="1.5" height="1" x="2" y="2" fill="white"></rect><rect width="1" height="1" x="3" y="2" fill="white"></rect><rect width="1" height="1" x="6" y="2" fill="white"></rect><rect width="1" height="1.5" x="6" y="2" fill="white"></rect><rect width="1" height="1" x="6" y="3" fill="white"></rect><rect width="1.5" height="1" x="1" y="4" fill="white"></rect><rect width="1" height="1.5" x="1" y="4" fill="white"></rect><rect width="1.5" height="1" x="2" y="4" fill="white"></rect><rect width="1.5" height="1" x="3" y="4" fill="white"></rect><rect width="1" height="1.5" x="3" y="4" fill="white"></rect><rect width="1.5" height="1" x="4" y="4" fill="white"></rect><rect width="1" height="1" x="5" y="4" fill="white"></rect><rect width="1" height="1.5" x="5" y="4" fill="white"></rect><rect width="1" height="1" x="1" y="5" fill="white"></rect><rect width="1" height="1" x="3" y="5" fill="white"></rect><rect width="1" height="1.5" x="3" y="5" fill="white"></rect><rect width="1.5" height="1" x="5" y="5" fill="white"></rect><rect width="1" height="1" x="6" y="5" fill="white"></rect><rect width="1" height="1.5" x="6" y="5" fill="white"></rect><rect width="1.5" height="1" x="3" y="6" fill="white"></rect><rect width="1" height="1" x="4" y="6" fill="white"></rect><rect width="1" height="1" x="6" y="6" fill="white"></rect></svg>
+    </textarea>
+    
+    <script src="script.js"></script>
+</body>
+</html>
